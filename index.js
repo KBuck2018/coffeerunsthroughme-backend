@@ -1,6 +1,5 @@
 const express = require("express");
 const parser = require("body-parser");
-const mongoose = require("mongoose");
 const mongoose = require("./db/models.js");
 const Caffeine = mongoose.model("Caffeine");
 
