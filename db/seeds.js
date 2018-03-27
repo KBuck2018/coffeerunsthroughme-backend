@@ -9,7 +9,6 @@ Caffeine.remove({})
   .then(() => {
     Caffeine.collection.insert(caffeineData).then(caffeines => {
       console.log(caffeines);
-      process.exit();
     });
   })
   .then(() => {
