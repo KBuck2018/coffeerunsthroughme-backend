@@ -1,11 +1,14 @@
 [
   {
-    "user": "Ai Yen"
+    "email": "Ai Yen",
+    "password": "c0ff333"
   },
   {
-    "user": "Hyojin"
+    "email": "Hyojin",
+    "password": "Hyojin123"
   },
   {
-    "user": "Kevin"
+    "email": "Kevin",
+    "password": "coffeeILoveIt"
   }
 ]
