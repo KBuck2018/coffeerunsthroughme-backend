@@ -1,4 +1,6 @@
 const caffeineData = require("./caffeine.json");
+const mongoose = require("./models.js");
+const Caffeine = mongoose.model("Caffeine");
 
 Caffeine.remove({})
   .then(() => {
