@@ -4,7 +4,7 @@
 
 * This is the group project (Ai Yen, Kevin, and Hyojin) in the Web Development Immersive Program from GA.
 * This is the backend component of a full-stack MERN application called Coffee Runs Through Me in which a user can track and compare their daily caffeine intake to other users.
-* There is the Express based back-end repository[here](https://github.com/hyojinsarchet/coffeerunsthroughme-frontend)
+* There is the Express based back-end repository [here](https://github.com/hyojinsarchet/coffeerunsthroughme-frontend)
 * It has complete CRUD functionality implemented with RESTful routes.
 
 ### Brief Example
@@ -20,11 +20,11 @@
 
 ### Technology Used
 
-| Front-End |
-| :-------: |
-|  Express  |
-|  MongoDB  |
-|   Node    |
+| Back-End |
+| :------: |
+| Express  |
+| MongoDB  |
+|   Node   |
 
 ### Why these technologies
 
