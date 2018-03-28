@@ -1,9 +1,12 @@
 const mongoose = require("./connection.js");
 
 const caffeineSchema = new mongoose.Schema({
-  coffee: Number,
-  tea: Number,
-  soda: Number
+  drinkType: {
+    type: String,
+    enum: ["Coffee", "Tea", "Soda"],
+    required: true
+  },
+  quantity: Number
 });
 
 mongoose.model("Caffeine", caffeineSchema);
