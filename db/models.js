@@ -1,6 +1,6 @@
 const mongoose = require("./connection.js");
 
-const caffineSchema = new mongoose.Schema({
+const caffeineSchema = new mongoose.Schema({
   drinkType: {
     type: String,
     enum: ["Coffee", "Tea", "Soda", "EnergyDrink"],
