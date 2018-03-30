@@ -43,6 +43,18 @@ app.get("/main/:id", (req, res) => {
     });
 });
 
+app.delete("/main/:id", (req, res) => {
+  Caffeine.findOneAndRemove({ _id: req.params.id }).then(caffeine => {
+    res.json(caffeine);
+  });
+});
+
+app.delete("/main/:id", (req, res) => {
+  Caffeine.findOneAndUpdate({ _id: req.params.id }).then(caffeine => {
+    res.json(caffeine);
+  });
+});
+
 app.use("/users", userController);
 
 app.listen(app.get("port"), () => {
