@@ -5,7 +5,6 @@ const Caffeine = mongoose.model("Caffeine");
 const cors = require("cors");
 const passport = require("./config/passport")();
 const userController = require("./controllers/users.js");
-
 const app = express();
 
 app.set("port", process.env.Port || 3001);
