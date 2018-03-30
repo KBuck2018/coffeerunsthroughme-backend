@@ -1,19 +1,19 @@
 [
   {
     "drink": {
-      "enum": ["Coffee", "Tea", "Soda"],
+      "enum": ["Coffee", "Tea", "Soda", "EnergyDrink"],
       "quantity": 0
     }
   },
   {
     "drink": {
-      "enum": ["Coffee", "Tea", "Soda"],
+      "enum": ["Coffee", "Tea", "Soda", "EnergyDrink"],
       "quantity": 0
     }
   },
   {
     "drink": {
-      "enum": ["Coffee", "Tea", "Soda"],
+      "enum": ["Coffee", "Tea", "Soda", "EnergyDrink"],
       "quantity": 0
     }
   }
