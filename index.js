@@ -43,6 +43,26 @@ app.get("/main/:id", (req, res) => {
     });
 });
 
+app.delete("/main/:id", (req, res) => {
+  Caffeine.findOneAndRemove({ _id: req.params.id }).then(caffeine => {
+    res.json(caffeine);
+  });
+});
+
+app.put("/main/:id", (req, res) => {
+  console.log(req.body);
+  console.log(req.params.id);
+  //https://stackoverflow.com/questions/32811510/mongoose-findoneandupdate-doesnt-return-updated-document
+  Caffeine.findOneAndUpdate(
+    { _id: req.params.id },
+    { $set: req.body },
+    { new: true }
+  ).then(caffeine => {
+    console.log(caffeine);
+    res.json(caffeine);
+  });
+});
+
 app.use("/users", userController);
 
 app.listen(app.get("port"), () => {
