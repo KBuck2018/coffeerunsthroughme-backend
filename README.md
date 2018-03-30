@@ -1,4 +1,4 @@
-# coffeerunsthroughme-backend
+# Coffeerunsthroughme-Backend
 
 ### About the project
 
@@ -8,6 +8,7 @@
 * It has complete CRUD functionality implemented with RESTful routes.
 
 ### Brief Example
+
 
 * controllers/users.js
 
@@ -36,6 +37,7 @@ router.post("/login", (req, res) => {
   }
 });
 ```
+
 
 ### List of Features
 
